@@ -1,0 +1,10 @@
+C:\mycode\GlassForm\GlassForm\obj\Debug\ResolveAssemblyReference.cache
+C:\mycode\GlassForm\GlassForm\bin\Debug\GlassForm.dll
+C:\mycode\GlassForm\GlassForm\bin\Debug\GlassForm.pdb
+C:\mycode\GlassForm\GlassForm\obj\Debug\GlassForm.dll
+C:\mycode\GlassForm\GlassForm\obj\Debug\GlassForm.pdb
+C:\mycode\GlassForm\GlassForm\bin\Release\GlassForm.dll
+C:\mycode\GlassForm\GlassForm\bin\Release\GlassForm.pdb
+C:\mycode\GlassForm\GlassForm\obj\Release\ResolveAssemblyReference.cache
+C:\mycode\GlassForm\GlassForm\obj\Release\GlassForm.dll
+C:\mycode\GlassForm\GlassForm\obj\Release\GlassForm.pdb

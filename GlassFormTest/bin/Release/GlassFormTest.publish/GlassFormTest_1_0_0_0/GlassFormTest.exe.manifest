@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="GlassFormTest.exe" version="1.0.0.0" publicKeyToken="9a0142fb2d6ff9c3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GlassFormTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GlassFormTest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GlassForm.dll" size="16384">
+      <assemblyIdentity name="GlassForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OlL33t8rgWXwvGS+27gJYGIerPo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GlassFormTest.exe" size="36864">
+      <assemblyIdentity name="GlassFormTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N+jgo11KGPirhgIZkhawzSys6cU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=THQINC\mason.mccuskey" issuerKeyHash="78aceea3beddeb2a9f1e2018ba8d6b25a1f8bd45" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9TYaqPKV31RRWEMfMhjoCJKxk8Y=</DigestValue></Reference></SignedInfo><SignatureValue>J8s0CHLy65HfKApX90lpLSmPIEN7LY3lvoHthlxEtyZxReFxxorm8ml2zSgV7KfBV0dVXbq7S8w7eNas8JU0TNPyUjChceTMhTIBhqZ2LkMBvWjlMcSkwDrtaxbyec8l0s3NfzcjcdC5NBSuV2VFl5vIBPboPCTcuZIpE4FMuws=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tXd2FI7NGZ1NIXs+o0VAUI5lo5lncsv5BgT2esIlGFcfGInt3iyOXcwIHeThMlONoC7DutwgpMoA3jMJzkkgPHioaeu1+xO6feg+kIVbm45h4zAZOC4AlBhwiYUcJnYe7lQ0BcmzGz0yYA9PZA8i2x4sn331ky+EvUrvQsBK/Hs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c693b19208e818321f43585154df95f2a81a36f5" Description="" Url=""><as:assemblyIdentity name="GlassFormTest.exe" version="1.0.0.0" publicKeyToken="9a0142fb2d6ff9c3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THQINC\mason.mccuskey</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MIW2oDcPN0izDI+eT1Eb0rMLb80=</DigestValue></Reference></SignedInfo><SignatureValue>dBv7vnGByKsluWq7Z3STQv9pOYIIEgv1HlR6j1JQGO9ITPOuHjA3HiwhamxvLHiaGETlyMM1+tDwc8Uc2pO5ILgKJbXnQDdPXkT9//mva8DhuzXEJLJb2wV4uHL8c2jzJ5tuSBZlZyXANpRwdfXnKfqn6WflyfWvRouhvbv7Wyg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tXd2FI7NGZ1NIXs+o0VAUI5lo5lncsv5BgT2esIlGFcfGInt3iyOXcwIHeThMlONoC7DutwgpMoA3jMJzkkgPHioaeu1+xO6feg+kIVbm45h4zAZOC4AlBhwiYUcJnYe7lQ0BcmzGz0yYA9PZA8i2x4sn331ky+EvUrvQsBK/Hs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfbZbUr94UpdLHTrbNmZ+CzANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAVABIAFEASQBOAEMAXABtAGEAcwBvAG4ALgBtAGMAYwB1AHMAawBlAHkwHhcNMDkwNjI1MTcxODE1WhcNMTAwNjI1MjMxODE1WjA1MTMwMQYDVQQDHioAVABIAFEASQBOAEMAXABtAGEAcwBvAG4ALgBtAGMAYwB1AHMAawBlAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALV3dhSOzRmdTSF7PqNFQFCOZaOZZ3LL+QYE9nrCJRhXHxiJ7d4sjl3MCB3k4TJTjaAuw7rcIKTKAN4zCc5JIDx4qGnrtfsTun3oPpCFW5uOYeMwGTguAJQYcImFHCZ2Hu5UNAXJsxs9MmAPT2QPItseLJ999ZMvhL1K70LASvx7AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAbFGfgN4bDrXXuKSfqGa6aHuiLr1VOuXmuHUARWjIdb6nkhVTBUZ6LGrBjJtrc+5Mkt6nKSSRo1iH+kOBR+z9y+MgXoIpkOcdT/57niDtKAckDAgBFIndIvCr5qiRyywdPIHxrk9s7p99tafI5TJjOUSoAQYomRFqnSvOfFKKjsk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
